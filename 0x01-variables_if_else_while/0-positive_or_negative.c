@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - assigns a random umber to int n everytime
  * it executes, and prints it
@@ -13,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n",  n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
