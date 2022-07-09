@@ -19,7 +19,7 @@ int main(void)
 	printf("%lu", bef);
 	for (i = 1; i < 91; i++)
 	{
-		rintf(", %lu", aft);
+		printf(", %lu", aft);
 		aft += bef;
 		bef = aft - bef;
 	}
