@@ -1,1 +1,1 @@
-Learning C @ALX
+Learning C with ALX Africa
