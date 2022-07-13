@@ -8,7 +8,7 @@
  * butter pointed to dest
  * Return: Pointer to dest
  */
-char *_strcpy(char *dest, chr *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = -1;
 
