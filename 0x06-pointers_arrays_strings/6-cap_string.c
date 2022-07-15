@@ -9,6 +9,7 @@ char *cap_string(char *str)
 {
 	char sep[] = ",\t;\n; .!?\"(){}";
 	int flag, i ii;
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		flag = 0;
@@ -37,6 +38,6 @@ char *cap_string(char *str)
 			}
 		}
 	}
-	
+
 	return (str);
 }

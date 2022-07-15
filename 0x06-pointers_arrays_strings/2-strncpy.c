@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - finds the length of the string
- * @deast: pointer to the string
+ * @dest: pointer to the string
  * @src: pointer
  * @n: int
  * Return: destinatiion
