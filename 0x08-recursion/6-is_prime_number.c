@@ -23,3 +23,20 @@ int divisors(int n, int m)
 		return (1);
 	}
 }
+
+/**
+ * is_prime_number - a natural number greater than 1 that is not a product of two smaller natural numbers
+ * @n: integer
+ * Return: recursion
+ */
+int is_prime_number(int n)
+{
+	if ((!(n % 2) && n != 2) || n < 2)
+	{
+		return (0);
+	}
+	else
+	{
+		return (divisors(3, n));
+	}
+}
