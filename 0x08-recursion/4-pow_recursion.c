@@ -4,6 +4,7 @@
  * _pow_recursion - power recursion function to  return the power of a nuber
  * @x: integer parameter as the base
  * @y: integer parameter as the power
+ * Return: recursion
  */
 int _pow_recursion(int x, int y)
 {
