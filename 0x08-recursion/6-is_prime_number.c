@@ -25,7 +25,7 @@ int divisors(int n, int m)
 }
 
 /**
- * is_prime_number - a natural number greater than 1 that is not a product of two smaller natural numbers
+ * is_prime_number - a natural number
  * @n: integer
  * Return: recursion
  */
