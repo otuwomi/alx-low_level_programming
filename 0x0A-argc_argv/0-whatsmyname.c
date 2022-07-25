@@ -8,6 +8,6 @@
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("The name of the program is %s\n", *argv);
+	printf("%s\n", *argv);
 	return (0);
 }
